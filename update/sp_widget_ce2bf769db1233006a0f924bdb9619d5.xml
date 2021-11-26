@@ -91,7 +91,7 @@
         <roles/>
         <script><![CDATA[(function() {
 	data.calls =[];
-	data.runtime = "https://flex.twilio.com/"+gs.getProperty('twilio.flex.runtime');
+	data.runtime = "https://flex.twilio.com/";
 	
 	var calls_gr = new GlideRecord('incident');
 	calls_gr.addEncodedQuery('active=true^contact_type=twilio_flex^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^x_8725_servicenow_twilio_integration_informationNOT LIKEcall_completed^NQactive=true^x_8725_servicenow_twilio_integration_informationLIKEjavascript:gs.getUserID()^x_8725_servicenow_twilio_integration_informationNOT LIKEcall_completed');
